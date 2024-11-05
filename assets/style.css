@@ -289,7 +289,7 @@ input[type="submit"] {
 }
 
 @media (max-width: 650px) {
-  .gallery img {
+  .gallery-item {
     width: 60%;
     height: 60%;
   }
