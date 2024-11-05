@@ -203,7 +203,6 @@ body {
   background-color: white;
   max-width: 390px;
   width: 30%;
-  height: 337px;
   padding: 1em;
   display: flex;
   flex-direction: column;
@@ -292,5 +291,17 @@ input[type="submit"] {
   .gallery-item {
     width: 60%;
     height: 60%;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
   }
 }
