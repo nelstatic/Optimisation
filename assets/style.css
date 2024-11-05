@@ -288,10 +288,9 @@ input[type="submit"] {
   }
 }
 
-@media (max-width: 1000px) {
-  /* Styles adaptés pour écrans plus petits */
-}
-
 @media (max-width: 650px) {
-  /* Styles adaptés pour très petits écrans */
+  .gallery img {
+    width: 60%;
+    height: 60%;
+  }
 }
