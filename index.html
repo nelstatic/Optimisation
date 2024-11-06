@@ -3,15 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Préchargement du CSS principal et chargement des feuilles de style synchronisées -->
+    <link rel="preload" href="./assets/bootstrap/bootstrap.css" as="style" />
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
     <link rel="stylesheet" href="./assets/style.css" />
+
+    <!-- Préconnexion et chargement optimisé des polices Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Spectral:ital,wght@0,400;1,700&display=swap"
       rel="stylesheet"
     />
 
+    <!-- Données structurées JSON-LD -->
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
@@ -46,17 +52,18 @@
         "sameAs": ["https://www.instagram.com/ninacarducci.photo"]
       }
     </script>
-    <!--Balises meta facebook-->
+
+    <!-- Balises Meta pour Facebook -->
     <meta
       property="og:title"
       content="Nina Carducci - Photographe professionnelle"
     />
     <meta property="og:url" content="https://ninacarducci.github.io/" />
     <meta property="og:description" content="Portfolio de Nina Carducci" />
-    <meta property="og:site_name" content="Nina  Carducci" />
+    <meta property="og:site_name" content="Nina Carducci" />
     <meta property="og:type" content="website" />
 
-    <!--Balises meta twitter-->
+    <!-- Balises Meta pour Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
@@ -76,15 +83,19 @@
       name="keywords"
       content="photographe, photographie, shooting, concerts, mariages, évenements, entreprise, portfolio, bordeaux, tarifs"
     />
-    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- Script JavaScript tiers avec async -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
+      async
     ></script>
-    <script src="./assets/maugallery.js"></script>
-    <script src="./assets/scripts.js"></script>
+
+    <!-- Script Bootstrap synchronisé si nécessaire, sinon déplacer vers le bas de la page -->
+    <script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
   </head>
+
   <body>
     <header class="top-header">
       <h1 class="name">Nina Carducci</h1>
@@ -212,73 +223,55 @@
           <img
             data-gallery-tag="Concert"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash_7_11zon.webp
-            "
+            src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash_7_11zon.jpg"
             alt="Portrait de aaron paul"
           />
           <img
             data-gallery-tag="Entreprises"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unspl_8_11zon.webp
-            "
+            src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unspl_8_11zon.jpg"
             alt="Portrait de ali morshedlou"
           />
           <img
             data-gallery-tag="Entreprises"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unspla_9_11zon.webp
-            "
+            src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unspla_9_11zon.jpg"
             alt="Portrait de jason goodman"
           />
           <img
             data-gallery-tag="Mariages"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unspla_12_11zon.webp
-            "
+            src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unspla_12_11zon.jpg"
             alt="Portrait de hannah busing"
           />
           <img
             data-gallery-tag="Portrait"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash_14_11zon.webp
-            "
+            src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash_14_11zon.jpg"
             alt="Portrait de ade tunji"
           />
           <img
             data-gallery-tag="Mariages"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash_11_11zon.webp
-            "
+            src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash_11_11zon.jpg"
             alt="Portrait de jakob owens"
           />
           <img
             data-gallery-tag="Portrait"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/portraits/nino-van-prattenburg-443cl1uR_8_13_11zon.webp
-            "
+            src="./assets/images/gallery/portraits/nino-van-prattenburg-443cl1uR_8_13_11zon.jpg"
             alt="Portrait de nino van prattenburg"
           />
           <img
             data-gallery-tag="Concert"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplas_6_11zon.webp
-            "
+            src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplas_6_11zon.jpg"
             alt="Portrait de austin neill"
           />
           <img
             data-gallery-tag="Entreprises"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY_10_11zon.webp
-            "
+            src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY_10_11zon.jpg"
             alt="Portrait de mateus campos felipe"
           />
         </div>
@@ -376,12 +369,12 @@
           </form>
         </div>
         <div class="picture right">
-          <img
-            srcset="./assets/images/camera.webp"
-            alt="Illustration de camera"
-          />
+          <img src="./assets/images/camera.webp" alt="Illustration de camera" />
         </div>
       </div>
     </footer>
+
+    <script src="./assets/maugallery.js" defer></script>
+    <script src="./assets/scripts.js" defer></script>
   </body>
 </html>
