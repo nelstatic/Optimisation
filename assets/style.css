@@ -102,10 +102,6 @@ body {
   padding-bottom: 2em;
 }
 
-.gallery {
-  display: none;
-}
-
 .gallery .nav {
   justify-content: center;
 }
