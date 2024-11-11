@@ -4,12 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Préchargement du CSS principal et chargement des feuilles de style synchronisées -->
     <link rel="preload" href="./assets/bootstrap/bootstrap.css" as="style" />
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
     <link rel="stylesheet" href="./assets/style.css" />
 
-    <!-- Préconnexion et chargement optimisé des polices Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,7 +15,6 @@
       rel="stylesheet"
     />
 
-    <!-- Données structurées JSON-LD -->
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
@@ -53,7 +50,6 @@
       }
     </script>
 
-    <!-- Balises Meta pour Facebook -->
     <meta
       property="og:title"
       content="Nina Carducci - Photographe professionnelle"
@@ -63,7 +59,6 @@
     <meta property="og:site_name" content="Nina Carducci" />
     <meta property="og:type" content="website" />
 
-    <!-- Balises Meta pour Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
@@ -84,7 +79,6 @@
       content="photographe, photographie, shooting, concerts, mariages, évenements, entreprise, portfolio, bordeaux, tarifs"
     />
 
-    <!-- Script JavaScript tiers avec async -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -92,7 +86,6 @@
       async
     ></script>
 
-    <!-- Script Bootstrap synchronisé si nécessaire, sinon déplacer vers le bas de la page -->
     <script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
   </head>
 
@@ -425,7 +418,12 @@
           </form>
         </div>
         <div class="picture right">
-          <img src="./assets/images/camera.webp" alt="Illustration de camera" />
+          <img
+            src="./assets/images/camera.webp"
+            width="330px"
+            height="330px"
+            alt="Illustration de camera"
+          />
         </div>
       </div>
     </footer>
